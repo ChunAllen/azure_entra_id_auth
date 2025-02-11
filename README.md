@@ -9,6 +9,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install v23.4.0
 ```
 
+Set environment variables
+```
+cp .env.copy .env // Set the credentials based on MS Entra ID
+```
+
 Install Dependencies
 ```
 cd azure_sso_app
